@@ -1,0 +1,32 @@
+{
+  "config": {
+    "data_path": "data/electricity_market_dataset.csv",
+    "model_type": "linear",
+    "detector_type": "adwin",
+    "warmup_size": 500,
+    "max_samples": 2000
+  },
+  "summary": {
+    "total_samples": 2000,
+    "valid_predictions": 1500,
+    "drift_count": 0,
+    "drift_points": [],
+    "final_mae": 0.06546132101964192,
+    "final_rmse": 0.0822385313147209
+  },
+  "metrics_history": [
+    {
+      "sample": 1000,
+      "mae": 0.06396706198194585,
+      "rmse": 0.07977959835996393,
+      "drift_count": 0
+    },
+    {
+      "sample": 2000,
+      "mae": 0.06620845053848995,
+      "rmse": 0.08344082868694988,
+      "drift_count": 0
+    }
+  ],
+  "retrain_history": []
+}

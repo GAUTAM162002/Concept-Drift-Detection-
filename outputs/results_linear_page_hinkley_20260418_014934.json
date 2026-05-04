@@ -1,0 +1,134 @@
+{
+  "config": {
+    "data_path": "data/electricity_market_dataset.csv",
+    "model_type": "linear",
+    "detector_type": "page_hinkley",
+    "warmup_size": 1000,
+    "max_samples": 20000
+  },
+  "summary": {
+    "total_samples": 20000,
+    "valid_predictions": 19000,
+    "drift_count": 0,
+    "drift_points": [],
+    "final_mae": 0.07268016571234999,
+    "final_rmse": 0.09106161280958511
+  },
+  "metrics_history": [
+    {
+      "sample": 2000,
+      "mae": 0.06620845053848995,
+      "rmse": 0.08344082868694988,
+      "drift_count": 0
+    },
+    {
+      "sample": 3000,
+      "mae": 0.06878904384281738,
+      "rmse": 0.08607140254975358,
+      "drift_count": 0
+    },
+    {
+      "sample": 4000,
+      "mae": 0.0746007969089524,
+      "rmse": 0.09328412379237452,
+      "drift_count": 0
+    },
+    {
+      "sample": 5000,
+      "mae": 0.0705351369300968,
+      "rmse": 0.08914957567969571,
+      "drift_count": 0
+    },
+    {
+      "sample": 6000,
+      "mae": 0.07172390053226052,
+      "rmse": 0.08944337709214367,
+      "drift_count": 0
+    },
+    {
+      "sample": 7000,
+      "mae": 0.07086110240455737,
+      "rmse": 0.09104230330845602,
+      "drift_count": 0
+    },
+    {
+      "sample": 8000,
+      "mae": 0.07445680750093998,
+      "rmse": 0.0918560911431799,
+      "drift_count": 0
+    },
+    {
+      "sample": 9000,
+      "mae": 0.07266895560430689,
+      "rmse": 0.09055292735812824,
+      "drift_count": 0
+    },
+    {
+      "sample": 10000,
+      "mae": 0.07437151047615641,
+      "rmse": 0.09316176618837038,
+      "drift_count": 0
+    },
+    {
+      "sample": 11000,
+      "mae": 0.06948109867939334,
+      "rmse": 0.08770631088350317,
+      "drift_count": 0
+    },
+    {
+      "sample": 12000,
+      "mae": 0.07442633881655081,
+      "rmse": 0.09137485619204029,
+      "drift_count": 0
+    },
+    {
+      "sample": 13000,
+      "mae": 0.07224606281294857,
+      "rmse": 0.0909317735985766,
+      "drift_count": 0
+    },
+    {
+      "sample": 14000,
+      "mae": 0.07509216908801654,
+      "rmse": 0.09416803145245925,
+      "drift_count": 0
+    },
+    {
+      "sample": 15000,
+      "mae": 0.07229130470652725,
+      "rmse": 0.09023857776630724,
+      "drift_count": 0
+    },
+    {
+      "sample": 16000,
+      "mae": 0.08002539524583503,
+      "rmse": 0.09866659566049336,
+      "drift_count": 0
+    },
+    {
+      "sample": 17000,
+      "mae": 0.07162870188893222,
+      "rmse": 0.08968309847150341,
+      "drift_count": 0
+    },
+    {
+      "sample": 18000,
+      "mae": 0.07166204324421856,
+      "rmse": 0.09021172597314173,
+      "drift_count": 0
+    },
+    {
+      "sample": 19000,
+      "mae": 0.07191361230471907,
+      "rmse": 0.0898635947690764,
+      "drift_count": 0
+    },
+    {
+      "sample": 20000,
+      "mae": 0.07794071700893082,
+      "rmse": 0.0980502148985798,
+      "drift_count": 0
+    }
+  ],
+  "retrain_history": []
+}

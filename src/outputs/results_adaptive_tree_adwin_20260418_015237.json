@@ -1,0 +1,19 @@
+{
+  "config": {
+    "data_path": "data/electricity_market_dataset.csv",
+    "model_type": "adaptive_tree",
+    "detector_type": "adwin",
+    "warmup_size": 1000,
+    "max_samples": 10000
+  },
+  "summary": {
+    "total_samples": 0,
+    "valid_predictions": 0,
+    "drift_count": 0,
+    "drift_points": [],
+    "final_mae": null,
+    "final_rmse": null
+  },
+  "metrics_history": [],
+  "retrain_history": []
+}

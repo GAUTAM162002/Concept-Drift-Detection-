@@ -1,0 +1,74 @@
+{
+  "config": {
+    "data_path": "data/electricity_market_dataset.csv",
+    "model_type": "adaptive_tree",
+    "detector_type": "adwin",
+    "warmup_size": 1000,
+    "max_samples": 10000
+  },
+  "summary": {
+    "total_samples": 10000,
+    "valid_predictions": 9000,
+    "drift_count": 0,
+    "drift_points": [],
+    "final_mae": 0.045150298023347864,
+    "final_rmse": 0.05661516092755592
+  },
+  "metrics_history": [
+    {
+      "sample": 2000,
+      "mae": 0.04221439510885991,
+      "rmse": 0.052615772941030245,
+      "drift_count": 0
+    },
+    {
+      "sample": 3000,
+      "mae": 0.04142941417083874,
+      "rmse": 0.05324132270510913,
+      "drift_count": 0
+    },
+    {
+      "sample": 4000,
+      "mae": 0.044614544171717015,
+      "rmse": 0.05602217981821512,
+      "drift_count": 0
+    },
+    {
+      "sample": 5000,
+      "mae": 0.043372727204797255,
+      "rmse": 0.05424352741945493,
+      "drift_count": 0
+    },
+    {
+      "sample": 6000,
+      "mae": 0.047411324072017744,
+      "rmse": 0.05901400173693209,
+      "drift_count": 0
+    },
+    {
+      "sample": 7000,
+      "mae": 0.04790341704150542,
+      "rmse": 0.05949371034339559,
+      "drift_count": 0
+    },
+    {
+      "sample": 8000,
+      "mae": 0.05148487005303466,
+      "rmse": 0.06354288030488288,
+      "drift_count": 0
+    },
+    {
+      "sample": 9000,
+      "mae": 0.045460648903287486,
+      "rmse": 0.056934756585504745,
+      "drift_count": 0
+    },
+    {
+      "sample": 10000,
+      "mae": 0.04246134148407251,
+      "rmse": 0.05349922430553974,
+      "drift_count": 0
+    }
+  ],
+  "retrain_history": []
+}
